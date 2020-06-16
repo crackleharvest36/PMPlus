@@ -1,0 +1,31 @@
+# PMPlus - created by CrackleHarvest36
+
+#Message that is displayed if the console tries to run a message command.
+players-only: "&cPlayers only!"
+
+#Message that is displayed if the player doesn't use valid usage.
+msg-usage: "&cInvalid usage! &e/msg [<player>] [<message>]"
+reply-usage: "&cInvalid usage! &e/reply [<message>]"
+
+#Message that is displayed to the sender if they try to send a message to an offline player.
+# VARIABLES ALLOWED:
+# - %player%: The name of the player of which the sender tried sending a message to.
+
+player-not-found: "&e%player% &cis not online!"
+
+#Message that is displayed to the sender if they run the reply command before messaging someone first.
+no-one-to-reply-to: "&cYou must message someone first before you can reply to them!"
+
+#Message that is shown to both the sender and the target when a message is sent successfully.
+# VARIABLES ALLOWED:
+# - %sender%: The player who runs the command initially.
+# - %target%: The player who is receiving the message from the sender.
+# - %msg% - The message that is sent.
+
+output-msg: "&7(&e%sender% &7-> &e%target%&7) &d%msg%"
+
+#Sound that is played to both the sender and the target.
+# LIST OF SOUNDS: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+# TIP: Most people use "NOTE_PLING" when using message commands!
+
+sound-to-play: "NO_SOUND"

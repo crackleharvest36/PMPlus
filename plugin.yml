@@ -1,0 +1,13 @@
+name: "SimpleBroadcast"
+version: 1.0
+main: me.crackleharvest36.simplebroadcast.Main
+
+commands:
+  msg:
+    usage: /msg [<player>] [<message>]
+    description: "Message a player on the server."
+    aliases: [tell, w]
+  reply:
+    usage: /reply [<message>]
+    description: "Respond faster to a player you messaged"
+    aliases: [r]
