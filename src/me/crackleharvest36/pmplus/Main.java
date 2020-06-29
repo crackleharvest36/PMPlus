@@ -25,7 +25,7 @@ public class Main extends JavaPlugin {
 		URL url = null;
 		Scanner scanner = null;
 		try {
-			url = new URL("https://pastebin.com/raw/yG2XYpCe");
+			url = new URL("https://pastebin.com/raw/1sNjE1x5");
 			scanner = new Scanner(url.openStream());
 		} catch (Exception e) {
 			getLogger().severe("Couldn't find latest version for PMPlus");
