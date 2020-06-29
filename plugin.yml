@@ -1,6 +1,6 @@
 name: "SimpleBroadcast"
 version: 1.0
-main: me.crackleharvest36.simplebroadcast.Main
+main: me.crackleharvest36.pmplus.Main
 
 commands:
   msg:
